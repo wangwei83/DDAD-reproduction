@@ -1,6 +1,6 @@
 data :
   name: MVTec  #MVTec #MTD #VisA 
-  data_dir: datasets/MVTec  #MVTec #VisA #MTD  
+  data_dir: ../DDAD/datasets/MVTec  #MVTec #VisA #MTD  
   category: screw  #['carpet', 'bottle', 'hazelnut', 'leather', 'cable', 'capsule', 'grid', 'pill', 'transistor', 'metal_nut', 'screw','toothbrush', 'zipper', 'tile', 'wood']    
                    # ['candle', 'capsules', 'cashew', 'chewinggum', 'fryum', 'macaroni1', 'macaroni2', 'pcb1', 'pcb2' ,'pcb3', 'pcb4', 'pipe_fryum']
   image_size: 256 
@@ -14,7 +14,7 @@ data :
 
 model:
   DDADS: False
-  checkpoint_dir: checkpoints/MVTec   #MTD  #MVTec  #VisA
+  checkpoint_dir: ../DDAD/checkpoints/MVTec   #MTD  #MVTec  #VisA
   checkpoint_name: weights
   exp_name: default
   feature_extractor: wide_resnet101_2 #wide_resnet101_2  # wide_resnet50_2 #resnet50
